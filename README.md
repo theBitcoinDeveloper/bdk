@@ -35,6 +35,13 @@ The `bdk` library aims to be the core building block for Bitcoin wallets of any 
 * It's very easy to extend: developers can implement customized logic for blockchain backends, databases, signers, coin selection, and more, without having to fork and modify this library.
 
 ## Examples
+Put these under [dependencies] of your Cargo.toml file.
+
+```rust,no_run
+bdk = "0.16.0"
+bitcoin = "0.27.1"
+base64 = "0.13.0"
+```
 
 ### Sync the balance of a descriptor
 
